@@ -1,57 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    background-color: blue;
-}
-
-.container {
-    width: 70%;
-    margin: 50px auto;
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-}
-.container2 {
-    width: 60%;
-    margin: 50px auto;
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.container3 {
-    width: 50%;
-    margin: 50px auto;
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.casella {
-    margin: 5px;
-    width:calc((100% / 10 ) - 10px );
-    height: 70px;
-    background-color: black;
-}
-
-.casella_2 {
-    margin: 5px;
-    width:calc((100% / 9 ) - 10px );
-    height: 70px;
-    background-color: black;
-}
-
-.casella_3 {
-    margin: 5px;
-    width:calc((100% / 7 ) - 10px );
-    height: 70px;
-    background-color: black;
-}
-
-
-
+    }
+    
+    body {
+        background-color: blue;
+    }
+    
+    .container {
+        width: 800px;
+        height: 800px;
+        margin: 60px auto;
+        border: 2px solid white;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .square {
+        border:2px solid white;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .facile {
+        width: 10%;
+        height: 10%;
+    }
+    
+    .difficile {
+        width: calc(100% / 7);
+        height: calc(100% / 7);
+    }
+    
+    .medio {
+        width: calc(100% / 9);
+        height: calc(100% / 9);
+    }
+    
+    .active {
+        background-color: red;
+    }
 
